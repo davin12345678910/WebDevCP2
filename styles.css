@@ -1,0 +1,65 @@
+/*
+  Name: Davin Win Kyi
+  Date: April 17th, 2022
+  Section: CSE 154 AH
+  This is the CSS for the linear search program that
+  I am making. The CSS allows the array and other features
+  of the website such as the titles to be formatted with
+  more appeal and nice design features to the user.
+*/
+
+/* These are thestyles for the whole body */
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* These are thestyles for the header/title */
+h1 {
+  font-size: 40px;
+}
+
+/* These are the styles for the input, where you can input the values for the array */
+#inputs {
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+/* These are the styles for the array */
+#array {
+  justify-content: center;
+  flex-direction: vertical;
+}
+
+#array section {
+  height: 75px;
+  width: 75px;
+  border-top: 5px  solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+  padding: 10px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.last-box {
+  border-right: 5px solid black;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+.highlight-green {
+  background-color: green;
+}
+
+/* These are general CSS rules that will be used */
+#search-element, #search-element-label, #start-search, button, #array-count {
+  font-size: 25px;
+}
+
+/* for flex */
+#inputs, #array {
+  display: flex;
+}
